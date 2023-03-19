@@ -6,6 +6,10 @@
     "microservices/*",
     "libs/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjchaverra/test-lerna.git"
+  },
   "scripts": {
     "co": "sui-mono commit"
   },
