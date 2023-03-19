@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "applications/*",
+    "microservices/*",
+    "libs/*"
+  ],
+  "scripts": {
+    "co": "sui-mono commit"
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  },
+  "dependencies": {
+    "@s-ui/mono": "^2.34.0"
+  }
+}
